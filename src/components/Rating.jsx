@@ -1,6 +1,6 @@
 import React from "react";
 
-function Ratings({ value, text, color }) {
+function Rating({ value, text, color }) {
   return (
     <div className="rating">
       <span>
@@ -60,4 +60,4 @@ function Ratings({ value, text, color }) {
   );
 }
 
-export default Ratings;
+export default Rating;

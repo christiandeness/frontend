@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import SelectRoom from "./screens/SelectRoom";
 import { Container } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import RoomScreen from "./screens/RoomScreen";
+import ProductScreen from "./screens/ProductScreen";
 import wallpaper from "./wallpaper.jpg";
 import "./index.css";
 
@@ -26,7 +26,7 @@ function App() {
         <Container>
           <Routes>
             <Route path="/" element={<SelectRoom />} exact />
-            <Route path="/product/:id" element={<RoomScreen />} exact />
+            <Route path="/product/:id" element={<ProductScreen />} exact />
           </Routes>
         </Container>
       </main>

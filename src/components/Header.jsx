@@ -46,9 +46,6 @@ function Header() {
                   Contact Us
                 </a>
               </li>
-              <button type="button" class="btn btn-info">
-                Log In
-              </button>
             </ul>
           </div>
         </div>
